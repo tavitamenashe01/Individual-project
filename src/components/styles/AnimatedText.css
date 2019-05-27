@@ -1,0 +1,40 @@
+/* #animatedStyles {
+    margin-top: 50%;
+    background: blue;
+} */
+.animationTextBlock {
+  /* background: black; */
+  /* height: 10%;
+    width: 100%; */
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.animatedHeader {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* box-shadow: 0 0 15px 5px; */
+}
+
+.animatedH2:hover{
+    left: 30px;
+    margin-top: -10px;
+}
+
+.block {
+  height: 400px;
+  width: 100%;
+  background: rgba(30, 108, 217, 0.8);
+  margin-top: 15%;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 0;
+  color: white;
+}
