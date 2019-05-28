@@ -77,13 +77,13 @@ class MainText extends Component {
           <div className="icon">
             <Link to="/">
               <img src={iconEquestrian_track} alt="" />
-              <p className="category-text">обучение</p>
+              <p className="category-text">Oбучение</p>
             </Link>
           </div>
           <div className="icon">
             <Link to="/">
               <img src={iconTrophy} alt="" />
-              <p className="category-text">Наши награды</p>
+              <p className="category-text">Наши достижения</p>
             </Link>
           </div>
           <div className="icon">
@@ -190,6 +190,11 @@ class MainText extends Component {
           время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах
           которых используется Lorem Ipsum.
         </div>
+
+
+
+<a href="http://tiagoalexandrelopes.com/" target="_blank" id="author">About me</a>
+
       </div>
     );
   }
