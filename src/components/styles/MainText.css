@@ -144,5 +144,11 @@ link:hover {
 .horse-icons {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   /* width: 100px; */
+}
+
+.horse-icons img {
+  width: 10rem;
+  height: 100%;
 }

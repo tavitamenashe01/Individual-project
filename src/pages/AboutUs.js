@@ -5,46 +5,47 @@ import { Header } from "../components";
 import "/home/tavita/projects/hey/app-name/app-name/src/components/styles/AboutUs.css";
 // import "./styles/var.css";
 
-
 class AboutUs extends Component {
-
- 
-  render() { 
-    const styles={
-       position: "absolute",
-       background: "black"
-  }
-
+  render() {
     return (
       <div className="AboutUs">
-       <Header/>
-         <div className="AboutUs_background"> 
-         
-         <header class="header_main">
-	<div class="brand-box">
-		<span class="brand">Example Brand</span>
-	</div>
-	
-	<div class="text-box">
-		<h1 class="heading-primary">
-			<span class="heading-primary-main">Конно-спортивная школа</span>
-			{/* <span class="heading-primary-sub">The secondary heading</span> */}
-		</h1>
-		{/* <a href="#" class="btn btn-white btn-animated">Discover our tours</a> */}
-	</div>
-</header>
-         </div>
+        <div className="AboutUs_background">
+          <header class="header_main">
+            <Header />
+            <div class="brand-box">
+              {/* <span class="brand">Example Brand</span> */}
+            </div>
 
-         <h1>Кто мы?</h1>
-         
-What is Lorem Ipsum?
+            <div class="text-box">
+              <h1 class="heading-primary">
+                <span class="heading-primary-main">Конно-спортивная школа</span>
+                <hr className="line" />
+                {/* <span class="heading-primary-sub">The secondary heading</span> */}
+              </h1>
+              {/* <a href="#" class="btn btn-white btn-animated">Discover our tours</a> */}
+            </div>
+          </header>
+        </div>
+        <h1 className="heading_whoWeAre">Кто мы?</h1>
+        {/* <hr className="second-line"/> */}
+        <div className="block_aboutUs">
+        <div className="text-block">
+          <p className="text">
+            Нам пришлось начинать все с нуля: закупать лошадей, имеющих высокую
+            ценность в спорте и способных передавать свои уникальные качества
+            потомству, восстанавливать инфраструктуру клуба, искать лучший
+            персонал для школы. На сегодняшний день наша школа верховой езды
+            совмещает в себе уникальные методики Советского спорта, современные
+            разработки и мировой тренерский опыт, что выводит на высокий уровень
+            качество предоставляемых нами услуг.
+          </p></div>
+          <img src="http://www.sport.gov.kg/public/images/img_library/%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%20%D0%91%D0%B8%D1%88%D0%BA%D0%B5%D0%BA%20%D0%BF%D0%BE%20%D0%BA%D0%BE%D0%BD%D0%BD%D0%BE%D0%BC%D1%83%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D1%83/small600/201502211659017.JPG" />
+        </div>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-Why do we use it?
+      <div className="quote_block">
+      
+      </div>
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-        
       </div>
     );
   }

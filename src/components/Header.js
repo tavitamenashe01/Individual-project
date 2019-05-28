@@ -46,8 +46,7 @@ class Header extends Component {
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                     <li class="nav-item">
-
-<NavLink
+              <NavLink
                 exact
                 class="nav-link link headerLinks  "
                 activeStyle={active}

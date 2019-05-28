@@ -36,35 +36,63 @@ class MainText extends Component {
 
         <div class="scroll-down" />
 
-
-<div className="block">
-
- <div className="animationTextBlock">
-        <ScrollAnimation
-          animateIn="fadeIn"
-          animateOut="fadeOut"
-          id="animatedStyles"
-          // style={animText}
-        >
-       
-          <h1 className="animatedHeader">Хочешь научиться ездить верхом?</h1>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
-          <h2 className="animatedH2">
-            {/* <a href='https://daneden.github.io/animate.css/'> */}
-            Конно-спортивная школа
-            {/* </a> */}
-          </h2>
-        </ScrollAnimation>
-</div></div>
+        <div className="block">
+          <div className="animationTextBlock">
+            <ScrollAnimation
+              animateIn="fadeIn"
+              animateOut="fadeOut"
+              id="animatedStyles"
+              // style={animText}
+            >
+              <h1 className="animatedHeader">
+                Хочешь научиться ездить верхом?
+              </h1>
+            </ScrollAnimation>
+            <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+            >
+              <h2 className="animatedH2">
+                {/* <a href='https://daneden.github.io/animate.css/'> */}
+                Конно-спортивная школа
+                {/* </a> */}
+              </h2>
+            </ScrollAnimation>
+          </div>
+        </div>
         {/* <a href="https://icons8.com/icon/25691/катание-на-пони">Катание на пони icon by Icons8</a> */}
         <div className="horse-icons">
-        <img src={iconHorse}  alt="" />
-        <img src={iconJockey} style={{width:100}}  alt=""/>
-        <img src={iconEquestrian_track} alt=""/>
-        <img src={iconTrophy} alt="" />
-        <img src={iconHorse_shoe} alt="" />
-</div>
+          <div className="icon">
+            <Link to="/">
+              <img src={iconHorse} alt="" />
+              <p className="category-text">Верховая езда</p>
+            </Link>
+          </div>
+          <div className="icon">
+            <Link to="/">
+              <img src={iconJockey} alt="" />
+              <p className="category-text">Тренера</p>
+            </Link>
+          </div>
+          <div className="icon">
+            <Link to="/">
+              <img src={iconEquestrian_track} alt="" />
+              <p className="category-text">обучение</p>
+            </Link>
+          </div>
+          <div className="icon">
+            <Link to="/">
+              <img src={iconTrophy} alt="" />
+              <p className="category-text">Наши награды</p>
+            </Link>
+          </div>
+          <div className="icon">
+            <Link to="/">
+              <img src={iconHorse_shoe} alt="" />
+              <p className="category-text">Конюшня</p>
+            </Link>
+          </div>
+        </div>
         <div className="mainBlock">
           <div className="HalfCarousel">
             <div
@@ -138,21 +166,30 @@ class MainText extends Component {
           </div>
         </div>
 
-        <p>In this example, we have created a fixed background image that will disappear slowly on scroll. Scroll the page to see the effect. <strong>Note:</strong> Try to remove the background-attachment property to really understand this example.</p>
+
+        <p>
+          In this example, we have created a fixed background image that will
+          disappear slowly on scroll. Scroll the page to see the effect.{" "}
+          <strong>Note:</strong> Try to remove the background-attachment
+          property to really understand this example.
+        </p>
 
         <div className="fixedBg">
           {/* <img src="https://static.wixstatic.com/media/d75657_b4c7f2bb0c0e442791e36bad3f588704~mv2_d_5107_3192_s_4_2.jpg/v1/fill/w_1600,h_1000,al_c,q_90/file.jpg" alt="" /> */}
         </div>
 
-        
-
-     <div className="textBlock">text
-     Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-     Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. 
-     В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
-     </div>
-
-
+        <div className="textBlock">
+          text Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+          латинице с начала XVI века. В то время некий безымянный печатник
+          создал большую коллекцию размеров и форм шрифтов, используя Lorem
+          Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил
+          без заметных изменений пять веков, но и перешагнул в электронный
+          дизайн. Его популяризации в новое время послужили публикация листов
+          Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее
+          время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах
+          которых используется Lorem Ipsum.
+        </div>
       </div>
     );
   }
